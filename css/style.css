@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #c7d6de;
+}
+
+body h1{
+    text-align: center;
+}
+
+main{
+    margin: 100px 150px 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalogos-boxes{
+    padding: 5px;
+    background-color: #ffffff;
+    margin: 13px;
+    flex: 40%;
+    min-height: 300px;
+}
+
+.catalogos-boxes img{
+    float: left;
+    height: 70px;
+}
+
+.catalogos-boxes .classificacao{
+    text-align: center;
+    width: 60px;
+    float: right;
+}
+
+.catalogos-boxes p{
+    font-size: 12px;
+}
+
+.catalogos-boxes h3{
+    margin: 0;
+    font-size: 15px;
+}
